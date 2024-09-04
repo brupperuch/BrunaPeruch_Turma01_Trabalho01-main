@@ -200,11 +200,15 @@ Descrição: Adiciona tarefas com prioridades diferentes e verifica se elas são
 
 Para executar este projeto, siga os passos abaixo:
 
-Instale o [Node JS](https://nodejs.org/) (versão >= 20.x)
-Execute `npm install`  para instalar todas as dependências do projeto.
-Execute `npm run test` para executar toda a suíte de testes.
-Execute `npm run coverage` para executar toda a suíte de testes com cobertura de código.
-Todos os artefatos de execução podem ser encontrados em `./coverage`. Se você quiser remover esses arquivos, execute `npm run clean`.
+1- Instale o [Node JS](https://nodejs.org/) (versão >= 20.x)
+
+2- Execute `npm install`  para instalar todas as dependências do projeto.
+
+3- Execute `npm run test` para executar toda a suíte de testes.
+
+4- Execute `npm run coverage` para executar toda a suíte de testes com cobertura de código.
+
+5- Todos os artefatos de execução podem ser encontrados em `./coverage`. Se você quiser remover esses arquivos, execute `npm run clean`.
 
 
 
