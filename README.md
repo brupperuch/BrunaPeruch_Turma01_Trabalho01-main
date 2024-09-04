@@ -7,11 +7,11 @@ Este documento descreve os testes unitários criados para a classe GerenciadorDe
 Os testes foram escritos usando o framework Jest e estão organizados para verificar a funcionalidade de cada método da classe GerenciadorDeTarefas. A seguir, está a descrição de cada grupo de testes:
 
 1. Adicionar Tarefa
-Teste: deve adicionar uma tarefa com sucesso;
+Teste: deve adicionar uma tarefa com sucesso.
 Objetivo: Verificar se uma tarefa é adicionada corretamente ao gerenciador quando a descrição é válida.
 Descrição: Adiciona uma tarefa com uma descrição válida e verifica se ela está presente na lista de tarefas.
 
-Teste: não deve adicionar tarefa com descrição muito curta.
+- Teste: não deve adicionar tarefa com descrição muito curta.
 Objetivo: Garantir que uma tarefa com descrição muito curta não seja adicionada.
 Descrição: Tenta adicionar uma tarefa com uma descrição menor ou igual a 3 caracteres e verifica se um erro é lançado.
 
