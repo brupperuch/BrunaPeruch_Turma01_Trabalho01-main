@@ -8,11 +8,15 @@ Os testes foram escritos usando o framework Jest e estão organizados para verif
 
 1. Adicionar Tarefa
 Teste: `deve adicionar uma tarefa com sucesso`.
+
 Objetivo: Verificar se uma tarefa é adicionada corretamente ao gerenciador quando a descrição é válida.
+
 Descrição: Adiciona uma tarefa com uma descrição válida e verifica se ela está presente na lista de tarefas.
 
 - Teste: `não deve adicionar tarefa com descrição muito curta`.
+
 Objetivo: Garantir que uma tarefa com descrição muito curta não seja adicionada.
+
 Descrição: Tenta adicionar uma tarefa com uma descrição menor ou igual a 3 caracteres e verifica se um erro é lançado.
 
 2. Remover Tarefa
