@@ -7,11 +7,11 @@ Este documento descreve os testes unitários criados para a classe GerenciadorDe
 Os testes foram escritos usando o framework Jest e estão organizados para verificar a funcionalidade de cada método da classe GerenciadorDeTarefas. A seguir, está a descrição de cada grupo de testes:
 
 1. Adicionar Tarefa
-Teste: deve adicionar uma tarefa com sucesso
+Teste: deve adicionar uma tarefa com sucesso;
 Objetivo: Verificar se uma tarefa é adicionada corretamente ao gerenciador quando a descrição é válida.
 Descrição: Adiciona uma tarefa com uma descrição válida e verifica se ela está presente na lista de tarefas.
 
-Teste: não deve adicionar tarefa com descrição muito curta
+Teste: não deve adicionar tarefa com descrição muito curta.
 Objetivo: Garantir que uma tarefa com descrição muito curta não seja adicionada.
 Descrição: Tenta adicionar uma tarefa com uma descrição menor ou igual a 3 caracteres e verifica se um erro é lançado.
 
@@ -129,18 +129,15 @@ Descrição: Adiciona tarefas com prioridades diferentes e verifica se elas são
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
 
-## Getting Started
+## Executar Testes
 
-In order to execute this project you must follow the steps below:
+Para executar este projeto, siga os passos abaixo:
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
-
-
-
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
+Instale o [Node JS](https://nodejs.org/) (versão >= 20.x)
+Execute `npm install`  para instalar todas as dependências do projeto.
+Execute `npm run test` para executar toda a suíte de testes.
+Execute `npm run coverage` para executar toda a suíte de testes com cobertura de código.
+Todos os artefatos de execução podem ser encontrados em `./coverage`. Se você quiser remover esses arquivos, execute `npm run clean`.
 
 ## Project Structure
 </br>
